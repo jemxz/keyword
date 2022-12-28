@@ -5,10 +5,11 @@ const posts = new Schema({
             poster: String,
             postId: String,
             postContent: String,
-            numberOfLikes: String,
+            numberOfComments: String,
             numberOfShares: String,
             timeOfPost: String,
-            postSentiment: String,
+            postImg:String,
+            postSentiment: Object,
             date: String
 
 })

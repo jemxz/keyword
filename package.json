@@ -9,13 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.19",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
+    "log-to-file": "^3.0.3",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.4",
+    "nodemon": "^2.0.19",
     "puppeteer": "^13.0.1",
-    "puppeteer-core": "^13.0.1"
+    "puppeteer-core": "^13.0.1",
+    "sentiment": "^5.0.2"
   }
 }
